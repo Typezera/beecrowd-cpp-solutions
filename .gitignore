@@ -1,0 +1,9 @@
+.vscode/*
+.vscode/
+.vscode/compileCommands.json
+.vscode/*.log
+
+
+
+/1000/*
+!/1000/*.cpp 
