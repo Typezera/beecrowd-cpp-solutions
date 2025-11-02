@@ -1,14 +1,18 @@
 #include <iostream>
+#include <iomanip>
+
 
 int main() {
-    int a; 
-    int b;
+    double raio;
+    const double PI = 3.14159;
 
-    std::cin >> a;
-    std::cin >> b;
-    int resultado = a + b;
+    std::cin >> raio;
 
-    std::cout << "X = " << resultado << std::endl;
+    double result = (raio * raio) * PI;
+
+    std::cout << std::fixed << std::setprecision(4);
+
+    std::cout << "A=" << result << std::endl;
 
     return 0;
 }
